@@ -10,7 +10,7 @@ public class TimeController {
     private final TimeService timeService;
 
     @Autowired
-    public TimeController(@Qualifier("mock") TimeService timeService) {
+    public TimeController(TimeService timeService) {
         this.timeService = timeService;
     }
 
